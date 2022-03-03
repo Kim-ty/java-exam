@@ -1,8 +1,11 @@
 package com.gabekim.exam.collection.list;
 
+import com.gabekim.exam.collection.map.HashTable;
 import com.gabekim.exam.utils.User;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.TreeMap;
 
 public class ListMain {
 
@@ -38,6 +41,12 @@ public class ListMain {
         System.out.println(list.indexOf(user7));
         list.clear();
         System.out.println(list.toString());
+
+        Hashtable<String,User> treeTest = new Hashtable<String,User>();
+
+        treeTest.put("강병찬",null);
+
+        System.out.println(treeTest.toString());
 
 
 
